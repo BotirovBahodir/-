@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+  <header class="bg-[#121214]" >
+    <nav class="flex justify-between   pl-[85px] pr-[85px] pt-[17px] pb-[19px] " >
+      <div class="nav-left">
+        <ul class="flex text-[white] gap-[20px]   "  >
+          <li><a class="hover:text-[#ffa12e]" href="#"><img src="./IMAGE (2).png" alt=""></a></li>
+          <li><a class="hover:text-[#ffa12e]" href="#">Sounds</a></li>
+          <li><a class="hover:text-[#ffa12e]" href="#">Skills</a></li>
+          <li><a class="hover:text-[#ffa12e]" href="#">Plugins</a></li>
+          <li><a class="hover:text-[#ffa12e]" href="#">Studio</a></li>
+          <li><a class="hover:text-[#ffa12e]" href="#">Community</a></li>
+          <li><a class="hover:text-[#ffa12e]" href="#">Blog</a></li>
+          <li><a class="hover:text-[#ffa12e]" href="#">Pricing</a></li>
+        </ul>
+      </div>
+      <div class=" pt-[5px] pb-[8px] pl-[21px] pr-[21px] rounded-[32px] bg-[white] w-[95px] h-[35px] text-[#000000] ">
+        <button>Sign up</button>
+      </div>
+    </nav>
+  </header>
+    <section class="relative bg-cover bg-center h-screen text-white" style="background-image: url('/IMAGE.png');">
+        <div class="absolute inset-0 bg-black/50"></div> <!-- Overlay -->
+        <div class="relative z-10 flex flex-col justify-center items-start h-full max-w-6xl mx-auto px-6">
+          <h1 class="text-5xl font-bold leading-tight max-w-xl">
+            Step into the producer’s playground
+          </h1>
+          <p class="text-lg mt-4 max-w-md">
+            Explore the world’s best sample library and an unmatched marketplace of plugins and DAWs.
+          </p>
+          <button class="mt-6 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-md text-lg font-medium">
+            Try free
+          </button>
+        </div>
+      </section>
+      <section class="bg-black text-white py-20">
+        <div class="max-w-6xl mx-auto px-6">
+          <h2 class="text-center text-xl text-gray-400 mb-10">About Catalog</h2>
+          
+          <div class="flex flex-col md:flex-row items-center justify-between">
+            <div class="max-w-md">
+              <h3 class="text-2xl font-semibold mb-4">A catalog so deep, it’s dangerous.</h3>
+              <p class="mb-6 text-gray-300">Expertly created and curated samples in any style imaginable. Start swimming in sound.</p>
+              <button class="px-5 py-3 bg-blue-600 hover:bg-blue-700 rounded-md font-medium">Explore Sounds</button>
+            </div>
+            <img src="/IMAGE (1).png" alt="Sample Cards" class="w-full max-w-lg mt-10 md:mt-0" />
+          </div>
+        </div>
+      </section>
+      <section class="bg-black text-white py-20">
+        <div class="max-w-6xl mx-auto px-6">
+          <div class="flex flex-col-reverse md:flex-row items-center justify-between">
+              <img src="/IMAGE (6).png" alt="Sample Cards" class="w-full max-w-lg mt-10 md:mt-0" />
+            <div class="max-w-md">
+              <h3 class="text-2xl font-semibold mb-4">A catalog so deep, it’s dangerous.</h3>
+              <p class="mb-6 text-gray-300">Expertly created and curated samples in any style imaginable. Start swimming in sound.</p>
+              <button class="text-center px-5 py-3 bg-blue-600 hover:bg-blue-700 rounded-md font-medium ml-[280px] ">Explore Sounds</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="bg-black text-white py-12">
+          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+              
+              <div class=" h-[453px] bg-white text-black rounded-lg shadow p-6 flex flex-col items-center text-center">
+                <img class="w-[223px] h-[223] rounded-full mb-9" src="./IMAGE (3).png" alt="Andrew Huang" />
+                <p class="pt-[50px]">I can always find what I’m looking for on Splice, whether it’s the exact sound I want or just a bit of inspiration.</p>
+                <span class="text-sm text-gray-600">Andrew Huang</span>
+              </div>
+        
+              <div class="bg-white text-black rounded-lg shadow p-6 flex flex-col items-center text-center">
+                <img class="w-[223px] h-[223] rounded-full mb-4" src="./IMAGE (4).png" alt="KSHMR" />
+                <p class="pt-[50px]">Finally a way to buy plugins that works. By paying a little at a time, producers can get legit access to the top VSTs.</p>
+                <span class="text-sm text-gray-600">KSHMR</span>
+              </div>
+        
+              <div class="bg-white text-black rounded-lg shadow p-6 flex flex-col items-center text-center">
+                <img class="w-[223px] h-[223] rounded-full mb-4" src="./IMAGE (5).png" alt="Kesha Lee" />
+                <p class="pt-[50px]">It’s been fun to dive into Splice’s creator community and explore tools that support my own creative process.</p>
+                <span class="text-sm text-gray-600">Kesha Lee</span>
+              </div>
+        
+            </div>
+          </div>
+        
+          <div class="bg-gray-800 text-gray-300 text-sm mt-[50px] py-4  text-center ">
+            <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center space-y-2 md:space-y-0">
+              <p>© 2022 Splice.com All Rights Reserved</p>
+              <div class="flex space-x-4">
+                <a href="#" class="hover:underline">Terms of Use</a>
+                <a href="#" class="hover:underline">Privacy Policy</a>
+                <a href="#" class="hover:underline">Jobs</a>
+                <a href="#" class="hover:underline">Contact</a>
+                <a href="#" class="hover:underline">Help</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+            
+</body>
+</html>
